@@ -1,0 +1,414 @@
+*{
+    margin: 0px;
+}
+body{
+    background-color:black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+#section1{
+    width: 100%;
+    height: 75px;
+    position: relative;
+    position: fixed;
+    margin-top: -125px;
+    background-color: black;
+}
+#profilename{
+    float: left;
+    width: 400px;
+    height: 75px;
+    position: fixed;
+    color: white;
+}
+.profileimage{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    margin-left: 100px;
+    margin-top: 13px;
+}
+#profilename .myname{
+    font-size: 25px;
+    font-weight: bold;
+    position: relative;
+    left: 15px;
+    top: -17px;
+}
+.menu{
+    display: flex;
+    float: right;
+    margin-top: 25px;
+    margin-right: 20px;
+}
+.subcon{
+    list-style-type: none;
+}
+.subcon a{
+    text-decoration: none;
+    /*border-style: solid;*/
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    margin-right: 75px;
+    font-weight: bold;
+}
+.subcon a:hover{
+    color: orange;
+}
+#section2{
+    width: 100%;
+    height: 600px;
+}
+.head1{
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 125px;
+    width: 70%;
+    margin-left: 175px;
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+.para{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 0px;
+    width: 70%;
+    margin-left: 175px;
+    line-height: 1.5;
+}
+
+#section2 input{
+    width: 175px;
+    height: 50px;
+    font-size: 25px;
+    background-color: orange;
+    border-style: none;
+    margin-left: 43%;
+    margin-top: 75px;
+    color: white;
+    font-family: Times New Roman;
+    font-weight: bold;
+}
+#section2 input:hover{
+    color: black;
+    border-radius: 10px;   
+}
+#section3{
+    width: 100%;
+    height: 650px;
+    padding-top: 75px;
+}
+.head2{
+    width: 100%;
+    height: 65px;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
+.shortnote{
+    width: 70%;
+    margin-left: 175px;
+    height: 75px;
+    font-size: 25px;
+    line-height: 1.5;
+    color: white;
+    text-align: center;
+    margin-top: 0px;
+}
+#internal1{
+    width: 100%;
+    height: 500px;
+}
+.content1{
+    width: 720px;
+    height: 400px;
+    line-height: 1.5;
+    font-size: 20px;
+    color: white;
+    margin-top: 60px;
+    margin-left: 20px;
+}
+.content2{
+    width: 550px;
+    height: 400px;
+    float: right;
+    font-size: 20px;
+    color: white;
+}
+.content2 span{
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    background-color: orange;
+}
+.content1 input{
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    background-color: orange;
+    border-style: none;
+    margin-top: 25px;
+    color: white;
+    font-family: Times New Roman;
+    font-weight: bold;
+}
+.content1 input:hover{
+    color: black;
+    border-radius: 10px;
+}
+#section4{
+    width: 100%;
+    height: 1000px;
+    padding-top: 75px;
+}
+.head3 h1{
+    width: 100%;
+    height: 65px;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    line-height: 65px;
+}
+.head3 p{
+    width: 70%;
+    margin-left: 175px;
+    height: 50px;
+    font-size: 25px;
+    line-height: 1.5;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}
+.project1 img{
+    float: right;
+    margin-right: 30px;
+}
+.description{
+    width: 720px;
+    height: 400px;
+    line-height: 1.5;
+    font-size: 20px;
+    color: white;
+    margin-top: 75px;
+    margin-left: 20px;
+}
+.description h2{
+    font-size: 30px;
+    margin-top: -25px;
+    margin-bottom: 10px;
+}
+.description span{
+    display: inline-block;
+    margin-left: 0px;
+    margin-top: 30px;
+    color: white;
+    background-color: orange;
+    padding: 5px 10px;
+}
+.description2{
+    width: 720px;
+    height: 400px;
+    line-height: 1.5;
+    font-size: 20px;
+    color: white;
+    margin-top: 0px;
+    margin-left: 20px;
+    float: right;
+}
+.project2 img{
+    float: left;
+    margin-left: 30px;
+}
+.description2 h2{
+    font-size: 30px;
+    margin-top: -25px;
+    margin-bottom: 10px;
+}
+.description2 span{
+    display: inline-block;
+    margin-left: 0px;
+    margin-top: 30px;
+    color: white;
+    background-color: orange;
+    padding: 5px 10px;
+}
+#section5{
+    width: 100%;
+    padding-top: 75px;
+}
+.head4 h1{
+    width: 100%;
+    height: 65px;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    line-height: 65px;
+}
+.head4 p{
+    width: 70%;
+    margin-left: 175px;
+    height: 50px;
+    font-size: 25px;
+    line-height: 1.5;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}
+footer{
+    margin-top: -30px;
+}
+.contact1{
+    width: 600px;
+    height: 600px;
+    margin-top: 75px;
+    margin-left: 350px;
+}
+.contact1 label{
+    font-style: Times New Roman;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 30px;
+    color: white;
+}
+.contact1 .input1{
+    width: 450px;
+    height: 35px;
+    margin-left: 75px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    font-size: 16px;
+    outline: none;
+    border:3px solid orange;
+}
+.contact1 textarea{
+    width: 450px;
+    margin-left: 75px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    font-size: 16px;
+    outline: none;
+    border:3px solid orange;
+}
+.submit{
+    font-family: Times New Roman;
+    font-weight: bold;
+    font-size: 20px;
+    width: 125px;
+    padding: 10px;
+    background-color: orange;
+    color: white;
+    border-style: none;
+    float: right;
+    margin-right: 75px;
+    margin-top: 20px;
+}
+.submit:hover{
+    color: black;
+    border-radius: 10px;
+}
+#info{
+    width: 100%;
+    height: 350px;
+    margin-top: 75px;
+    background-color: white;
+}
+#info .infocontent{
+    width: 800px;
+}
+#info .infocontent h1{
+    padding-top: 75px;
+    margin-left: 75px;
+}
+#info .infocontent p{
+    margin-top: 15px;
+    margin-left: 75px;
+    line-height: 1.5;
+    font-size: 20px;
+}
+.logo{
+    float: right;
+    margin-top: 75px;
+    margin-right: 50px;
+}
+.logo img{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    margin-left: 20px;
+    margin-top: 15px;
+    border: 3px solid orange;
+}
+hr{
+    border: 2px solid orange;
+    border-radius: 50%;
+    width: 250px;
+    position: absolute;
+    left: 40%;
+    animation: changehr 3s ease-in-out 1;
+    z-index: -1000;
+}
+@keyframes changehr{
+    from{
+        transform: scaleX(3);
+    }
+}
+.finalline{
+    z-index: 1000;
+    animation: none;
+    margin-top: 55px;
+    width: 100%;
+    margin-left: -40%;
+    border: 1px solid orange;
+    border-radius: 0px;
+}
+.copyrights{
+    margin-top: 100px;
+    text-align: center;
+    font-size: 12px;
+}
+.copyrights a{
+    text-decoration: none;
+    font-size: 11px;
+    color: orange;
+}
+.links{
+    width: 75px;
+    height: 300px;
+    position: absolute;
+    right: -2px;
+    top: 175px;
+    display: grid;
+    background-color: orange;
+    border-radius: 50px 0px 0px 50px;
+}
+.links img{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    border: 3px solid #ffa500;
+    margin-top: 15px;
+    margin-left: 17px;
+}
+.links{
+    animation: expanding 3s ease-in-out 1;
+}
+@keyframes expanding{
+    from{
+        transform: translateX(80px);
+    }
+    to{
+        transform: translateX(0px);
+    }
+}
